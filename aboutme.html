@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>About me</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <header>
+                <nav id="mynav" class="overlay">
+                    <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</span>
+                        <div class="overlay-content">
+                            <a href="index.html" class="current">VDesign</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="aboutme.html">About me</a>
+                            <a href="getintouch.html">Get in touch</a>
+                        </div>
+                </nav>
+                <span id="trigger" onclick="openNav()">☰</span>
+            </header>
+        </section>
+
+        <section>
+            <article class="main-container-about">
+                <span class="main-title-about">
+                    <h1 class="h1-pink-about">Welcome!</h1>
+                    <h3 class="text-container-about">Hi my name is Victoria & I'm a frontend web developer!</h3>
+                </span>
+            </article>
+                <img src="" alt="">
+            <article class="secondmain-container-about">
+                <span class="main-title2-about">
+                    <h3 class="h3-pink-about">I recently obtained my diploma at</h3>
+                </span>
+                <img class="arrow-left" src="images/arrow-left-turn-light.png" alt="light pink arrow pointing left">
+                <span class="main-title3-about">
+                    <h3 class="h3-pink-about">Concordia University in UI & Web design.</h3>
+                </span>
+                <img class="arrow-down" src="images/arrow-light.svg" alt="light pink arrow pointing down">
+                <span class="main-title4-about">
+                    <h3 class="h3-pink-about">I recently got accepted in the program</h3>
+                </span>
+                <img class="arrow-right" src="images/arrow-right-turn-light.png" alt="light pink arrow pointing right">
+                <span class="main-title5-about">
+                    <h3 class="h3-pink-about">Full-Stack Web Development</h3>
+                </span>
+            </article>
+        </section>
+
+        <section class="form-container">
+            <h2>Let's work together!</h2>
+            <form class="form-container" action="Submit">
+                <div class="formbox labelbox">
+                    <label for="firstname">First name</label><br>
+                    <input type="text" name="name" placeholder="John"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label for="lastname">Last name</label><br>
+                    <input type="text" name="lastname" placeholder="Doe"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" placeholder="john.doetest.com"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label for="message">Write me a message!</label><br>
+                    <textarea name="message" placeholder="Message"></textarea><br>
+                </div>
+                <button type="button" class="form-btn">Submit</button>            
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h4>Website developped by VDesign @2023</h4>
+    </footer>
+
+    <script src="Javascript/scripts.js"></script>
+
+</body>
+
+</html>

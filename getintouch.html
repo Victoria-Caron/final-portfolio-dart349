@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Get in touch</title>
+</head>
+
+<body>
+    <main class="main">
+        <section>
+            <header>
+                <nav id="mynav" class="overlay">
+                    <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</span>
+                        <div class="overlay-content">
+                            <a href="index.html" class="current">VDesign</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="aboutme.html">About me</a>
+                            <a href="getintouch.html">Get in touch</a>
+                        </div>
+                </nav>
+                <span id="triggerdark" onclick="openNav()">☰</span>
+            </header>
+        </section>
+
+        <section class="main-get">
+            <article class="get-box">
+                <h1 class="get-subbox1">You made it this far!</h1>
+                <h1 class="get-subbox2">Why not collaborate?</h1>
+            </article>
+        </section>
+
+        <section class="arrow2">
+            <a href="#scroll2">
+                <img src="images/arrow-light.svg" alt="arrow">
+            </a>
+        </section>
+
+        <section id="scroll2" class="form-container">
+            <h2 class="label-color">Let's work together!</h2>
+            <form class="form-container" action="Submit">
+                <div class="formbox labelbox">
+                    <label class="label-color" for="firstname">First name</label><br>
+                    <input type="text" name="name" placeholder="John"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label class="label-color" for="lastname">Last name</label><br>
+                    <input type="text" name="lastname" placeholder="Doe"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label class="label-color" for="email">Email</label><br>
+                    <input type="text" name="email" placeholder="john.doetest.com"><br>
+                </div>
+                <div class="formbox labelbox">
+                    <label class="label-color" for="message">Write me a message!</label><br>
+                    <textarea name="message" placeholder="Message"></textarea><br>
+                </div>
+                <button type="button" class="form-btn-dark">Submit</button>            
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h4 class="h4">Website developped by VDesign @2023</h4>
+    </footer>
+
+        <script src="Javascript/scripts.js"></script>
+
+</body>
+
+</html>
